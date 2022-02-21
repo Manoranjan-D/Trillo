@@ -1,0 +1,23 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Demo application to master flex box",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm run devserver",
+    "compile:css": "node-sass sass/main.scss css/style.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 5 versions' css/style.css -o css/style.css",
+    "compress:css": "node-sass css/style.css css/style.min.css --output-style compressed",
+    "build": "npm run compile:css && npm run prefix:css && npm run compress:css"
+  },
+  "author": "Manu",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "concat": "^1.0.3",
+    "node-sass": "^7.0.1",
+    "postcss-cli": "^9.1.0"
+  }
+}
