@@ -8,6 +8,60 @@
     <title>Trillo</title>
   </head>
   <body>
-    demo
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img src="./assests/logo.png" alt="logo" class="logo" />
+
+          <form action="#" class="search">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              class="search__input"
+            />
+
+            <svg class="search__icon">
+              <use
+                xlink:href="./assests/sprite.svg#icon-magnifying-glass"
+              ></use>
+            </svg>
+          </form>
+
+          <nav class="user-nav">
+            <div class="user-nav__box">
+              <svg class="user-nav__icon">
+                <use xlink:href="./assests/sprite.svg#icon-bookmark"></use>
+              </svg>
+              <span class="user-nav__notification">5</span>
+            </div>
+
+            <div class="user-nav__box">
+              <svg class="user-nav__icon">
+                <use xlink:href="./assests/sprite.svg#icon-bookmark"></use>
+              </svg>
+              <span class="user-nav__notification">7</span>
+            </div>
+
+            <div class="user-nav__user">
+              <img
+                src="./assests/user-1.jpg"
+                alt="profile photo"
+                class="user-nav__photo"
+              />
+              <span class="user-nav__name">Manu</span>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <main class="main">
+        <section class="side-nav">side-nav</section>
+
+        <section class="content">content</section>
+      </main>
+    </div>
   </body>
 </html>
