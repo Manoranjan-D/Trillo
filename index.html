@@ -57,11 +57,113 @@
     </header>
 
     <div class="container">
-      <main class="main">
-        <section class="side-nav">side-nav</section>
+      <div class="content">
+        <nav class="sidebar" aria-label="side navigation">
+          <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./assests/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
 
-        <section class="content">content</section>
-      </main>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use
+                    xlink:href="./assests/sprite.svg#icon-aircraft-take-off"
+                  ></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./assests/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car rental</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="./assests/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2022 by Manu; All Rights Reserved</div>
+        </nav>
+
+        <section class="hotel-view">
+          <div class="gallery">
+            <figer class="gallery__item">
+              <img
+                src="./assests/hotel-1.jpg"
+                alt="hotel 1"
+                class="gallery__photo"
+              />
+            </figer>
+            <figer class="gallery__item">
+              <img
+                src="./assests/hotel-2.jpg"
+                alt="hotel 2"
+                class="gallery__photo"
+              />
+            </figer>
+            <figer class="gallery__item">
+              <img
+                src="./assests/hotel-3.jpg"
+                alt="hotel 3"
+                class="gallery__photo"
+              />
+            </figer>
+          </div>
+
+          <div class="overview">
+            <div class="overview__wrapper">
+              <div class="overview__heading">Hotel Las Palmas</div>
+              <div class="overview__stars">
+                <svg class="overview__icon-star">
+                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                </svg>
+              </div>
+            </div>
+
+            <div class="overview__wrapper">
+              <div class="overview__location">
+                <svg class="overview__icon-location">
+                  <use
+                    xlink:href="./assests/sprite.svg#icon-location-pin"
+                  ></use>
+                </svg>
+                <button class="btn-inline">Albufeira, Portugal</button>
+              </div>
+              <div class="overview__rating">
+                <div class="overview__rating-average">8.6</div>
+                <div class="overview__rating-count">426 Votes</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
