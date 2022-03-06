@@ -25,6 +25,8 @@
   --gap-large: 3rem;
 }
 
+//////////BREAK-POINTS
+$bp-extra-large: 75em; //1200px
 $bp-large: 62.5em; //1000px
 $bp-medium: 45.62em; //730px
 $bp-small: 35.62em; //570px
@@ -45,10 +47,6 @@ $bp-extra-small: 26.25em; //420px
 html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px
-
-  @media only screen and (max-width: $bp-extra-small) {
-    font-size: 56%;
-  }
 }
 
 body {

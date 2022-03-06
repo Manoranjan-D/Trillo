@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/style.min.css" />
     <link rel="shortcut icon" href="./assests/logo.png" type="image/x-icon" />
     <title>Trillo; Your all-in-one booking app</title>
   </head>
@@ -47,7 +48,7 @@
 
             <div class="user-nav__user">
               <img
-                src="./assests/user-1.jpg"
+                src="./assests/user-5.jpg"
                 alt="profile photo"
                 class="user-nav__photo"
               />
@@ -91,195 +92,200 @@
             </li>
           </ul>
 
-          <div class="legal">&copy; 2022 by Manu; All Rights Reserved</div>
+          <div class="legal">
+            &copy; 2022 by Manu; All Rights Reserved
+            <p>Thanks to Jonas Schmedtmann</p>
+          </div>
         </nav>
 
-        <div class="hotel-view">
-          <div class="gallery">
-            <figer class="gallery__item">
-              <img
-                src="./assests/hotel-1.jpg"
-                alt="hotel 1"
-                class="gallery__photo"
-              />
-            </figer>
-            <figer class="gallery__item">
-              <img
-                src="./assests/hotel-2.jpg"
-                alt="hotel 2"
-                class="gallery__photo"
-              />
-            </figer>
-            <figer class="gallery__item">
-              <img
-                src="./assests/hotel-3.jpg"
-                alt="hotel 3"
-                class="gallery__photo"
-              />
-            </figer>
-          </div>
+        <main class="hotel-view">
+          <article>
+            <section class="gallery" aria-label="gallery">
+              <figer class="gallery__item">
+                <img
+                  src="./assests/hotel-1.jpg"
+                  alt="hotel 1"
+                  class="gallery__photo"
+                />
+              </figer>
+              <figer class="gallery__item">
+                <img
+                  src="./assests/hotel-2.jpg"
+                  alt="hotel 2"
+                  class="gallery__photo"
+                />
+              </figer>
+              <figer class="gallery__item">
+                <img
+                  src="./assests/hotel-3.jpg"
+                  alt="hotel 3"
+                  class="gallery__photo"
+                />
+              </figer>
+            </section>
 
-          <div class="overview">
-            <div class="overview__wrapper">
-              <div class="overview__heading">Hotel Las Palmas</div>
-              <div class="overview__stars">
-                <svg class="overview__icon-star">
-                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
-                </svg>
-                <svg class="overview__icon-star">
-                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
-                </svg>
-                <svg class="overview__icon-star">
-                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
-                </svg>
-                <svg class="overview__icon-star">
-                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
-                </svg>
-                <svg class="overview__icon-star">
-                  <use xlink:href="./assests/sprite.svg#icon-star"></use>
-                </svg>
-              </div>
-            </div>
-
-            <div class="overview__wrapper none">
-              <div class="overview__location">
-                <svg class="overview__icon-location">
-                  <use
-                    xlink:href="./assests/sprite.svg#icon-location-pin"
-                  ></use>
-                </svg>
-                <button class="btn-inline">Albufeira, Portugal</button>
-              </div>
-              <div class="overview__rating">
-                <div class="overview__rating-average">8.6</div>
-                <div class="overview__rating-count">426 Votes</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="detail">
-            <div class="discription">
-              <div class="paragraph">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                  odio, voluptates hic expedita esse nulla delectus at placeat
-                  similique sapiente possimus
-                </p>
-                <p>
-                  ipsum dolor sit amet consectetur adipisicing elit. Velit odio,
-                  voluptates hic expedita esse nulla delectus at placeat
-                </p>
-              </div>
-
-              <div class="list-grp">
-                <ul class="list">
-                  <li class="list__item">Close to the beach</li>
-                  <li class="list__item">Breakfast included</li>
-                  <li class="list__item">Free airport shuttle</li>
-                  <li class="list__item">Free wifi in all rooms</li>
-                </ul>
-
-                <ul class="list">
-                  <li class="list__item">Air conditioning and heating</li>
-                  <li class="list__item">Pets allowed</li>
-                  <li class="list__item">We speak all languages</li>
-                  <li class="list__item">Perfect for families</li>
-                </ul>
-              </div>
-
-              <div class="recommend">
-                <p class="recommend__count">
-                  Lucy and 3 other friends recommend this hotel.
-                </p>
-                <div class="recommend__friends">
-                  <img
-                    src="./assests/user-3.jpg"
-                    alt="Friend 1"
-                    class="recommend__photo"
-                  />
-                  <img
-                    src="./assests/user-4.jpg"
-                    alt="Friend 2"
-                    class="recommend__photo"
-                  />
-                  <img
-                    src="./assests/user-5.jpg"
-                    alt="Friend 3"
-                    class="recommend__photo"
-                  />
-                  <img
-                    src="./assests/user-6.jpg"
-                    alt="Friend 4"
-                    class="recommend__photo"
-                  />
+            <section class="overview" aria-label="overview">
+              <div class="overview__wrapper">
+                <div class="overview__heading">Hotel Las Palmas</div>
+                <div class="overview__stars">
+                  <svg class="overview__icon-star">
+                    <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="./assests/sprite.svg#icon-star"></use>
+                  </svg>
                 </div>
               </div>
-            </div>
 
-            <div class="user-review">
-              <figure class="review">
-                <blockquote class="review__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores aut quis quaerat nemo, ea architecto dolore omnis
-                  recusandae assumenda
-                </blockquote>
-                <figcaption class="review__user">
-                  <div class="review__user-box">
+              <div class="overview__wrapper none">
+                <div class="overview__location">
+                  <svg class="overview__icon-location">
+                    <use
+                      xlink:href="./assests/sprite.svg#icon-location-pin"
+                    ></use>
+                  </svg>
+                  <button class="btn-inline">Albufeira, Portugal</button>
+                </div>
+                <div class="overview__rating">
+                  <div class="overview__rating-average">8.6</div>
+                  <div class="overview__rating-count">426 Votes</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="detail" aria-label="details">
+              <section class="discription" aria-label="discription">
+                <div class="paragraph">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Velit odio, voluptates hic expedita esse nulla delectus at
+                    placeat similique sapiente possimus
+                  </p>
+                  <p>
+                    ipsum dolor sit amet consectetur adipisicing elit. Velit
+                    odio, voluptates hic expedita esse nulla delectus at placeat
+                  </p>
+                </div>
+
+                <div class="list-grp">
+                  <ul class="list">
+                    <li class="list__item">Close to the beach</li>
+                    <li class="list__item">Breakfast included</li>
+                    <li class="list__item">Free airport shuttle</li>
+                    <li class="list__item">Free wifi in all rooms</li>
+                  </ul>
+
+                  <ul class="list">
+                    <li class="list__item">Air conditioning and heating</li>
+                    <li class="list__item">Pets allowed</li>
+                    <li class="list__item">We speak all languages</li>
+                    <li class="list__item">Perfect for families</li>
+                  </ul>
+                </div>
+
+                <div class="recommend">
+                  <p class="recommend__count">
+                    Lucy and 3 other friends recommend this hotel.
+                  </p>
+                  <div class="recommend__friends">
                     <img
-                      src="./assests/user-1.jpg"
-                      alt="user-1"
-                      class="review__photo"
+                      src="./assests/user-3.jpg"
+                      alt="Friend 1"
+                      class="recommend__photo"
                     />
-
-                    <div>
-                      <p class="review__name">Nick Smith</p>
-                      <p class="review__date">Feb 23rd, 2017</p>
-                    </div>
-                  </div>
-
-                  <p class="review__rating">9.3</p>
-                </figcaption>
-              </figure>
-
-              <figure class="review">
-                <blockquote class="review__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores aut quis quaerat nemo, ea architecto dolore omnis
-                  recusandae assumenda
-                </blockquote>
-                <figcaption class="review__user">
-                  <div class="review__user-box">
                     <img
-                      src="./assests/user-1.jpg"
-                      alt="user-1"
-                      class="review__photo"
+                      src="./assests/user-4.jpg"
+                      alt="Friend 2"
+                      class="recommend__photo"
                     />
-
-                    <div>
-                      <p class="review__name">Mary Thomas</p>
-                      <p class="review__date">Sept 13th, 2017</p>
-                    </div>
+                    <img
+                      src="./assests/user-5.jpg"
+                      alt="Friend 3"
+                      class="recommend__photo"
+                    />
+                    <img
+                      src="./assests/user-6.jpg"
+                      alt="Friend 4"
+                      class="recommend__photo"
+                    />
                   </div>
+                </div>
+              </section>
 
-                  <p class="review__rating">7.8</p>
-                </figcaption>
-              </figure>
+              <section class="user-review" aria-label="user review">
+                <figure class="review">
+                  <blockquote class="review__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores aut quis quaerat nemo, ea architecto dolore omnis
+                    recusandae assumenda
+                  </blockquote>
+                  <figcaption class="review__user">
+                    <div class="review__user-box">
+                      <img
+                        src="./assests/user-1.jpg"
+                        alt="user-1"
+                        class="review__photo"
+                      />
 
-              <button class="btn-inline">Show all <span>&rarr;</span></button>
-            </div>
-          </div>
+                      <div>
+                        <p class="review__name">Nick Smith</p>
+                        <p class="review__date">Feb 23rd, 2017</p>
+                      </div>
+                    </div>
 
-          <div class="cta">
-            <div class="cta__book-now">
-              Good news! We have 4 free rooms for your selected dates!
-            </div>
+                    <p class="review__rating">9.3</p>
+                  </figcaption>
+                </figure>
 
-            <button class="btn">
-              <span class="btn__visible">Book now</span>
-              <span class="btn__invisible">Only 4 rooms left</span>
-            </button>
-          </div>
-        </div>
+                <figure class="review">
+                  <blockquote class="review__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores aut quis quaerat nemo, ea architecto dolore omnis
+                    recusandae assumenda
+                  </blockquote>
+                  <figcaption class="review__user">
+                    <div class="review__user-box">
+                      <img
+                        src="./assests/user-1.jpg"
+                        alt="user-1"
+                        class="review__photo"
+                      />
+
+                      <div>
+                        <p class="review__name">Mary Thomas</p>
+                        <p class="review__date">Sept 13th, 2017</p>
+                      </div>
+                    </div>
+
+                    <p class="review__rating">7.8</p>
+                  </figcaption>
+                </figure>
+
+                <button class="btn-inline">Show all <span>&rarr;</span></button>
+              </section>
+            </section>
+
+            <section class="cta" aria-label="call to action">
+              <div class="cta__book-now">
+                Good news! We have 4 free rooms for your selected dates!
+              </div>
+
+              <button class="btn">
+                <span class="btn__visible">Book now</span>
+                <span class="btn__invisible">Only 4 rooms left</span>
+              </button>
+            </section>
+          </article>
+        </main>
       </div>
     </div>
   </body>
